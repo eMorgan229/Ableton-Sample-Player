@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+
     samplePlayer.loadSample().then(() => {
         document.getElementById("loading_indicator").innerHTML = "Sample Loaded!";
     })

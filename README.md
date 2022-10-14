@@ -1,4 +1,3 @@
-# Ableton-Sample-Player
 # Ableton Sample Player
 XY Sample Player
 Learning Team | Software Engineer Test
@@ -9,4 +8,6 @@ While the pad is pressed, the sample should play back in a continuous loop. The 
 Moving your pointer up and down changes the playback rate of the sample. Moving your pointer left and right changes the cutoff frequency of a filter that's being applied to the sound.
 
 Give it a try by pressing and dragging in the gray square below:
+
+
 

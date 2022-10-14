@@ -3,6 +3,7 @@
         <title>XY Sample Player</title>
         <link rel="stylesheet" href="styles.css">
         <script type="module" src="main.js"></script>
+        <script src="https://unpkg.com/wavesurfer.js"></script>
     </head>
     <body>
         <h1>XY Sample Player</h1>
@@ -27,9 +28,11 @@
             Give it a try by pressing and dragging in the gray square below:
         </p>
         <section class="two_row">
+            
             <svg class="xy_pad" id="xy_pad">
                 <circle cx="50%" cy="50%" r="3" opacity="0.5"></circle>
             </svg>
+    
             <div class="sample_display">
                 <div id="loading_indicator">Loading Sample...</div>
             </div>
