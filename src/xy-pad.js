@@ -25,6 +25,12 @@ export class XYPad {
             this.updateDot(xPct, yPct, 0.1);
             this.callback({type: "up", xPct, yPct});
         });
+
+        element.addEventListener("mouseout", (e) => {
+            let [xPct, yPct] = this.getPositionInPercentages(e);
+            this.updateDot(xPct, yPct, 0.1);
+            this.callback({type: "mouseout", xPct, yPct});
+        });
     }
 
     getPositionInPercentages(e) {

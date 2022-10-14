@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
         samplePlayer.setPlaybackRate((1 - (e.yPct / 100)) * 2);
 
         switch(e.type) {
+            case "mouseout":
+                samplePlayer.stopPlayback();
+                break;
             case "down":
                 samplePlayer.startPlayback();
                 break;
@@ -17,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 samplePlayer.stopPlayback();
                 break;
             case "move":
-                break;
+                break;      
         }
     });
 

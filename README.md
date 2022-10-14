@@ -9,5 +9,14 @@ Moving your pointer up and down changes the playback rate of the sample. Moving 
 
 Give it a try by pressing and dragging in the gray square below:
 
+## New Features
+A grid was added to enhance the user's ability to track their positioning on the pad and learn to associate their positiioning with the sound produced.
+
+## Bug Fixes
+Added a switch case that prevents  playback when the mouse is outside the track pad 
+
+
+
+
 
 
