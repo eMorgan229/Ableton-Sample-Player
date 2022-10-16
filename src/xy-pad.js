@@ -25,7 +25,7 @@ export class XYPad {
             this.updateDot(xPct, yPct, 0.1);
             this.callback({type: "up", xPct, yPct});
         });
-
+//bug fix to prevent audio from playing when the mouse goes outside the target
         element.addEventListener("mouseout", (e) => {
             let [xPct, yPct] = this.getPositionInPercentages(e);
             this.updateDot(xPct, yPct, 0.1);

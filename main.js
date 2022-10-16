@@ -27,6 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     samplePlayer.loadSample().then(() => {
         document.getElementById("loading_indicator").innerHTML = "Sample Loaded!";
+
+        const wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            scrollParent: true
+        });
+        wavesurfer.load('../assets/drum-loop-102-bpm.wav');
     })
 
     document.addEventListener("mousedown", (e) => {
