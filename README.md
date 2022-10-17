@@ -12,8 +12,13 @@ Give it a try by pressing and dragging in the gray square below:
 ## New Features
 A grid was added to enhance the user's ability to track their positioning on the pad and learn to associate their positiioning with the sound produced.
 
+A waveform was added to enhace the user's visualization of the sound 
+
 ## Bug Fixes
 Added a switch case that prevents  playback when the mouse is outside the track pad 
+
+## Stretch Goals
+Expansion upon the waveform graph below the xy-pad to be dynamic and reflect the wavelengths as they are affected by the mouse moving around the xy-pad
 
 
 
